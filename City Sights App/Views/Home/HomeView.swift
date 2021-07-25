@@ -18,32 +18,35 @@ struct HomeView: View {
             
             //Determine if we should show list or map
             
-            if !isMapShowing {
+            NavigationView{
                 
-                //show List
-                
-                VStack(alignment: .leading){
+                if !isMapShowing {
                     
-                    HStack{
+                    //show List
+                    
+                    VStack(alignment: .leading){
                         
-                        Image(systemName:"location")
-                        Text("San Francisco")
-                        Spacer()
-                        Text("Switch to Map View")
+                        HStack{
+                            
+                            Image(systemName:"location")
+                            Text("San Francisco")
+                            Spacer()
+                            Text("Switch to Map View")
+                        }
+                        Divider()
+                        BusinessList()
                     }
-                    Divider()
-                    BusinessList()
+                    .padding([.horizontal, .top])
+                    .navigationBarHidden(true)
+                    
                 }
-                .padding([.horizontal, .top])
                 
+                else{
+                    
+                    // Show Map
+                    
+                }
             }
-            
-            else{
-                
-                // Show Map
-                
-            }
-            
         }
         
         else{
