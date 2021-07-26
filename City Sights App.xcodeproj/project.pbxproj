@@ -21,6 +21,7 @@
 		80A3A789269475B700A0EA45 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A3A788269475B700A0EA45 /* HomeView.swift */; };
 		80A3A78E269622B700A0EA45 /* BusinessList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A3A78D269622B700A0EA45 /* BusinessList.swift */; };
 		80D4B69D2691D65800BD16FC /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D4B69C2691D65800BD16FC /* ContentModel.swift */; };
+		80F036F026ACEA9200EAFAC6 /* BusinessMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F036EF26ACEA9200EAFAC6 /* BusinessMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		80A3A788269475B700A0EA45 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		80A3A78D269622B700A0EA45 /* BusinessList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessList.swift; sourceTree = "<group>"; };
 		80D4B69C2691D65800BD16FC /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		80F036EF26ACEA9200EAFAC6 /* BusinessMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				80A3A788269475B700A0EA45 /* HomeView.swift */,
+				80F036EE26ACEA6400EAFAC6 /* Map */,
 				80A3A78C2696224300A0EA45 /* List */,
 			);
 			path = Home;
@@ -169,6 +172,14 @@
 				809563B326A3FD03001B2196 /* Detail */,
 			);
 			path = List;
+			sourceTree = "<group>";
+		};
+		80F036EE26ACEA6400EAFAC6 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				80F036EF26ACEA9200EAFAC6 /* BusinessMap.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +260,7 @@
 				809563B526A3FD35001B2196 /* BusinessDetail.swift in Sources */,
 				8079B9A72692F94C00845227 /* BusinessSearch.swift in Sources */,
 				80A3A78E269622B700A0EA45 /* BusinessList.swift in Sources */,
+				80F036F026ACEA9200EAFAC6 /* BusinessMap.swift in Sources */,
 				8068030726971897000EF30B /* BusinessSection.swift in Sources */,
 				80D4B69D2691D65800BD16FC /* ContentModel.swift in Sources */,
 				8079B9AB2692FCA000845227 /* Constants.swift in Sources */,
